@@ -1,0 +1,104 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+#bystander-1 {
+    right: 10%;
+    top: 20%;
+}
+
+#bystander-2 {
+    left: 10%;
+    top: 10%;
+}
+
+#author {
+    left: 45%;
+    top: 30%;
+}
+
+#bystander-1 img {
+    width: 200px;
+    height: 350px;
+    opacity: 1;
+    transform: scale(1, 1);
+}
+
+#bystander-2 img {
+    width: 200px;
+    height: 600px;
+    opacity: 1;
+    transform: scale(1, 1);
+}
+
+#author img {
+    width: 140px;
+    height: 350px;
+    transform: scale(1, 1);
+}
+
+div, p, h1 {
+    transition: all 3s ease;
+}
+
+.zoom-1 {
+    transform: scale(2, 2);
+}
+
+.zoom-2 {
+    transform: scale(18, 18);
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 4px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 16px;
+    opacity: 50%;
+}
+
+h1#final-zoom {
+    color: #FFFFFF;
+}
+
+.shrunk {
+    opacity: 0;
+    transform: scale(0, 0);
+}
+
+.unshrunk {
+    opacity: 1;
+    transform: scale(1, 1);
+}
+
+.fixed {
+    position: fixed;
+}
+
+p.spawned {
+    position: absolute;
+    color: #000000;
+    text-shadow: 0px 0px 1px #FFFFFF, 0px 0px 2px #FFFFFF;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+p.spawned.inner {
+    color: #FF0000;
+}
+
+footer {
+    background-color: #FFFFFF;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    text-align: right;
+    opacity: 75%;
+    font-size: 12px;
+    z-index: 3;
+    padding: 10px 10px 10px 10px;
+}
